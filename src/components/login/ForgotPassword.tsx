@@ -11,7 +11,7 @@ const ForgotPassword: React.FC = () => {
 
   const validationSchema = Yup.object({
     email: Yup.string()
-      .email("Dirección de correo inválida")
+      .email("Dirección de correo no valida")
       .required("Requerido"),
   });
 
